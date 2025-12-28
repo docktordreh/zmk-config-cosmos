@@ -1,0 +1,10 @@
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
+
+#include "cosmotyl.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
+
