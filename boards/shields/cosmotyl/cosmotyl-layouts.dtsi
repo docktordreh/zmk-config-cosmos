@@ -10,9 +10,6 @@
         transform = <&default_transform>;
         kscan = <&kscan>;
 
-        // Edit this to define the positions and sizes of the keys, or remove it
-        // if your keyboard will not support ZMK Studio.
-        // https://zmk.dev/docs/development/hardware-integration/physical-layouts#optional-keys-property
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  229    8       0     0     0>
             , <&key_physical_attrs 100 100  340    0       0     0     0>
