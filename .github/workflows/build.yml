@@ -12,10 +12,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - shield: corne
-            keyboard: corne
-          - shield: kyria
-            keyboard: kyria
+          - shield: cosmotyl
+            keyboard: cosmotyl
     steps:
       - uses: actions/checkout@v4
         with:
